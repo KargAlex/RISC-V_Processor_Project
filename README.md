@@ -37,6 +37,5 @@ This repository contains Verilog implementations and testbenches for a series of
 ├── datapath.v         # Datapath implementation
 ├── top_proc.v         # FSM-based processor controller
 ├── top_proc_tb.v      # Testbench for the top-level processor
-├── .gitignore         # Optional: Git ignore file for simulation outputs
 └── README.md          # Project documentation
 ```
