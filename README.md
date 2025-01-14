@@ -28,7 +28,7 @@ This repository contains Verilog implementations and testbenches for a series of
 - Verilog testbenches for validation of each module.
 
 ## File Structure
-'''
+
 ├── alu.v              # Arithmetic Logic Unit module
 ├── calc.v             # Calculator module
 ├── calc_enc.v         # Encoder for calculator operations
@@ -39,4 +39,14 @@ This repository contains Verilog implementations and testbenches for a series of
 ├── top_proc_tb.v      # Testbench for the top-level processor
 ├── .gitignore         # Optional: Git ignore file for simulation outputs
 └── README.md          # Project documentation
-'''
+.
+├── dir1
+│   ├── file11.ext
+│   └── file12.ext
+├── dir2
+│   ├── file21.ext
+│   ├── file22.ext
+│   └── file23.ext
+├── dir3
+├── file_in_root.ext
+└── README.md
