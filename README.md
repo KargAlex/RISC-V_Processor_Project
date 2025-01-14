@@ -28,4 +28,12 @@ This repository contains Verilog implementations and testbenches for a series of
 - Verilog testbenches for validation of each module.
 
 ## File Structure
-. ├── alu.v # Arithmetic Logic Unit ├── calc.v # Calculator module ├── calc_enc.v # Encoder for calculator operations ├── calc_tb.v # Testbench for calculator ├── regfile.v # Register file ├── datapath.v # Datapath implementation ├── top_proc.v # FSM-based processor controller ├── top_proc_tb.v # Testbench for top-level processor └── README.md # Project documentation
+├── alu.v # Arithmetic Logic Unit 
+├── calc.v # Calculator module 
+├── calc_enc.v # Encoder for calculator operations 
+├── calc_tb.v # Testbench for calculator 
+├── regfile.v # Register file 
+├── datapath.v # Datapath implementation 
+├── top_proc.v # FSM-based processor controller 
+├── top_proc_tb.v # Testbench for top-level processor 
+└── README.md # Project documentation
