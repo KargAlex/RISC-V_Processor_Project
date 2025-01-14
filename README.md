@@ -28,6 +28,7 @@ This repository contains Verilog implementations and testbenches for a series of
 - Verilog testbenches for validation of each module.
 
 ## File Structure
+.
 ├── alu.v # Arithmetic Logic Unit 
 ├── calc.v # Calculator module 
 ├── calc_enc.v # Encoder for calculator operations 
