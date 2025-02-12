@@ -32,7 +32,7 @@ module top_proc_tb;
     // Instantiate top_proc
     top_proc #(
         .INITIAL_PC(32'h00400000)  // Initial program counter
-    ) uut (
+    ) proc (
         .clk(clk),
         .rst(rst),
         .instr(instr),
@@ -59,7 +59,7 @@ module top_proc_tb;
         rst = 0;
 
         // Wait for simulation to complete
-        #10000;  // Run the simulation for a sufficient amount of time
+        #2000;  // Run the simulation for a sufficient amount of time
         $finish;
     end
 
